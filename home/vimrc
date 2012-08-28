@@ -1,0 +1,169 @@
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" => Vundle plugin
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+set nocompatible
+filetype off
+set rtp+=~/.vim/bundle/vundle/
+call vundle#rc()
+
+
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" => Bundles setup
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+Bundle 'gmarik/vundle'
+
+Bundle 'mileszs/ack.vim'
+Bundle 'scrooloose/nerdtree'
+Bundle 'airblade/vim-rooter'
+
+
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" => General config 
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+let mapleader = ","
+
+filetype plugin on               " Enable filetype plugin
+filetype indent on
+
+set history=100 
+set autoread                    " Auto read when file is changed from the outside
+set lazyredraw                  " Don't update the display while executing macros
+set scrolloff=8                 " Start scrolling when 8 lines away from margin
+set wildmenu                    " Turn on wild menu
+set wildmode=list:full          " Show a list when <TAB> and complete first full macth 
+set ruler                       " Always show current position:
+set hidden                      " Change buffer - without saving
+set showcmd                     " show current command at lower right
+
+set backspace=eol,start,indent  " Allow backspace in insert mode
+set whichwrap+=<,>,h,l
+
+set ignorecase                  " Ignore case when searching
+set smartcase
+set hlsearch                    " Highlight search things
+set incsearch                   " Make search act like search in modern browsers
+
+set magic                       " Set magic on, for regular expressions
+set showmatch                   " Show matching brackets when cursor is over them
+set cpoptions=ces$              " Make cw and like commands put a $ at the end
+
+set listchars=tab:▸\ ,eol:¬     " Show textmate-style tab and eol
+set switchbuf=useopen           " Reuse opened file from quickfix window
+
+
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" => Statusline
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+set laststatus=2                " Status line always on
+
+
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" => Text, tab and indent related
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+set expandtab                   " Insert space characters when <tab> key is pressed
+set shiftwidth=2                " number of space characters for indentation
+set tabstop=2
+set softtabstop=2
+
+set autoindent
+set smartindent
+
+
+
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" => colors and Fonts
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+syntax enable                   "Enable syntax hl
+colorscheme molokai
+
+if has("gui_running")
+    set guifont:Menlo:h14
+    set guioptions=ace
+    set fuoptions=maxvert,maxhorz
+    set background=dark
+    set transparency=3
+    if has("gui_macvim")
+        "macmenu &File.New\ Tab key=<D-T>
+        map <silent> <leader>t <Plug>PeepOpen
+        map <silent> <leader><leader> <C-w>v<C-w>l<Plug>PeepOpen
+    end
+endif  
+
+set encoding=utf8
+
+
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" => Moving around, tabs and buffers
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" Map space to / (search) and c-space to ? (backgwards search)
+map <space> /
+map <c-space> ?
+
+" Map key to clear highlighting of search terms
+map <silent> <leader><cr> :noh<cr>
+
+" Smart way to move btw. windows
+nnoremap <C-j> <C-W>j
+nnoremap <C-k> <C-W>k
+nnoremap <C-h> <C-W>h
+nnoremap <C-l> <C-W>l
+
+" Map <tab> to match bracket pairs
+nnoremap <TAB> %
+vnoremap <TAB> %
+
+" Map j,k to more by screen line (wrapped mode)
+nnoremap j gj
+nnoremap k gk
+
+
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" => command mode related 
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" set text wrapping toggles
+nmap <silent> <leader>w :set invwrap<CR>:set wrap?<CR>
+
+" set number column toggle
+nmap <C-N> :set invnumber<CR>
+
+"move a line of text using Comamnd+[jk] on mac
+nmap <D-j> mz:m+<cr>`z
+nmap <D-k> mz:m-2<cr>`z
+vmap <D-j> :m'>+<cr>`<my`>mzgv`yo`z
+vmap <D-k> :m'<-2<cr>`>my`<mzgv`yo`z
+
+
+
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" => Insert mode related
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" Map autocomplete/close 
+imap ,/ </<C-X><C-O>
+
+
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" => LustyJuggler
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+let g:LustyJugglerAltTabMode = 1
+noremap <silent> <A-Tab> :LustyJuggler<CR>
+
+
+
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" => NERDTree Plugin settings
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+let g:NERDTreeChDirMode=2
+nmap <leader>n :NERDTreeClose<CR>:execute 'NERDTreeToggle "' . getcwd() . '"'<CR>
+nmap <leader>m :NERDTreeClose<CR>:NERDTreeFind<CR>
+nmap <leader>N :NERDTreeClose<CR>
+
+autocmd VimEnter * NERDTreeToggle %:p:h
+autocmd VimEnter * wincmd p
+autocmd BufEnter * NERDTreeMirror
+
+
+
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" => ACK 
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+map <leader>a :Ack 

@@ -1,0 +1,21 @@
+[user]
+	name = Ronnie Liew
+	email = ronnieliew@gmail.com
+[color]
+	ui = auto
+[alias]
+	st = status
+	ci = commit
+	br = branch
+	co = checkout
+	df = diff
+  	lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative
+[core]
+  	excludesfile = ~/.gitignore
+  	attributesfile = ~/.gitattributes
+  	autocrlf = input
+  	safecrlf = true
+[diff]
+	tool = opendiff
+[credential]
+	helper = osxkeychain
