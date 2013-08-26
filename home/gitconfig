@@ -19,3 +19,5 @@
 	tool = opendiff
 [credential]
 	helper = osxkeychain
+[push]
+	default = simple
