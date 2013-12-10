@@ -10,6 +10,7 @@
 	co = checkout
 	df = diff
   	lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative
+	ksdiff = difftool -y -t Kaleidoscope
 [core]
   	excludesfile = ~/.gitignore
   	attributesfile = ~/.gitattributes
@@ -21,3 +22,8 @@
 	helper = osxkeychain
 [push]
 	default = simple
+[difftool "Kaleidoscope"]
+	cmd = ksdiff --partial-changeset --relative-path \"$MERGED\" -- \"$LOCAL\" \"$REMOTE\"
+[mergetool "Kaleidoscope"]
+	cmd = ksdiff --merge --output \"$MERGED\" --base \"$BASE\" -- \"$LOCAL\" --snapshot \"$REMOTE\" --snapshot
+	trustExitCode = true
