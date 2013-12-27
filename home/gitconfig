@@ -10,7 +10,8 @@
 	co = checkout
 	df = diff
   	lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative
-	ksdiff = difftool -y -t Kaleidoscope
+  ksdiff = difftool -y -t Kaleidoscope
+  ksmerge = mergetool -y -t Kaleidoscope
 [core]
   	excludesfile = ~/.gitignore
   	attributesfile = ~/.gitattributes
