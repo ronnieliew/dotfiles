@@ -23,6 +23,8 @@
   	safecrlf = true
 [diff]
 	tool = opendiff
+[merge]
+    ff = only
 [credential]
 	helper = osxkeychain
 [push]
