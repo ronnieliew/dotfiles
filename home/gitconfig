@@ -11,7 +11,11 @@
 	df = diff
   	lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative
   	ksdiff = difftool -y -t Kaleidoscope
-        ksmerge = mergetool -y -t Kaleidoscope
+    ksmerge = mergetool -y -t Kaleidoscope
+    create-branch = !sh -c 'git push origin HEAD:refs/heads/$1 && git fetch origin && git branch --track $1 origin/$1 && cd . && git checkout $1' -
+    delete-branch = !sh -c 'git push origin :refs/heads/$1 && git branch -D $1' -
+    merge-branch = !git checkout master && git merge @{-1}
+    up = !git fetch origin && git rebase origin/master
 [core]
   	excludesfile = ~/.gitignore
   	attributesfile = ~/.gitattributes
@@ -23,6 +27,8 @@
 	helper = osxkeychain
 [push]
 	default = simple
+[fetch]
+    prune = true
 [difftool "Kaleidoscope"]
 	cmd = ksdiff --partial-changeset --relative-path \"$MERGED\" -- \"$LOCAL\" \"$REMOTE\"
 [mergetool "Kaleidoscope"]
