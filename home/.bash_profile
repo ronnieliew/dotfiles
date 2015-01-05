@@ -11,5 +11,5 @@ fi
 if [ -e $(brew --prefix)/share/chruby ]; then
     . /usr/local/share/chruby/chruby.sh
     . /usr/local/share/chruby/auto.sh
-    chruby ruby-2.1.3
+    chruby ruby-2.2.0
 fi
