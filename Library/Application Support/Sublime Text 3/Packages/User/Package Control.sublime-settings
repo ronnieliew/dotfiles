@@ -5,6 +5,7 @@
 	"installed_packages":
 	[
 		"GitGutter",
+		"Monokai Extended",
 		"Package Control",
 		"Sass"
 	]
