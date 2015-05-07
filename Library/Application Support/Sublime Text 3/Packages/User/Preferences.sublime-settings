@@ -1,6 +1,7 @@
 {
 	"bold_folder_labels": true,
 	"color_scheme": "Packages/Monokai Extended/Monokai Extended Bright.tmTheme",
+	"ensure_newline_at_eof_on_save": true
 	"highlight_line": true,
 	"highlight_modified_tabs": true,
 	"ignored_packages":
