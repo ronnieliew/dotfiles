@@ -4,6 +4,7 @@
 	],
 	"installed_packages":
 	[
+		"AdvancedNewFile",
 		"GitGutter",
 		"Monokai Extended",
 		"Package Control",
