@@ -27,12 +27,12 @@ Bundle 'vim-scripts/Rename2'
 Bundle 'Lokaltog/vim-powerline'
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-" => General config 
+" => General config
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 filetype plugin on               " Enable filetype plugin
 filetype indent on
 
-set history=100 
+set history=100
 set autoread                    " Auto read when file is changed from the outside
 set lazyredraw                  " Don't update the display while executing macros
 set scrolloff=8                 " Start scrolling when 8 lines away from margin
@@ -68,7 +68,7 @@ endif
 " => Wild
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 set wildmenu                    " Turn on wild menu
-set wildmode=list:full          " Show a list when <TAB> and complete first full macth 
+set wildmode=list:full          " Show a list when <TAB> and complete first full macth
 set wildignore+=*.o,*.out,*.obj,.git,*.rbc,*.rbo,*.class,.svn,*.gem
 set wildignore+=*.zip,*.tar.gz,*.tar.bz2,*.rar,*.tar.xz
 set wildignore+=*/vendor/gems/*,*/vendor/cache/*,*/.bundle/*,*/.sass-cache/*,*/vendor/bundle/*,*/tmp/*
@@ -122,7 +122,7 @@ if has("gui_running")
         map <silent> <leader>t <Plug>PeepOpen
         map <silent> <leader><leader> <C-w>v<C-w>l<Plug>PeepOpen
     end
-endif  
+endif
 
 
 
@@ -280,9 +280,11 @@ autocmd VimEnter * NERDTreeToggle %:p:h
 autocmd VimEnter * wincmd p
 autocmd BufEnter * NERDTreeMirror
 
+" Strip trailing whitespace
+autocmd BufWritePre * :%s/\s\+$//e
 
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-" => ACK 
+" => ACK
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-map <leader>a :Ack 
+map <leader>a :Ack
