@@ -1,12 +1,15 @@
 {
+	"bootstrapped": true,
 	"in_process_packages":
 	[
 	],
 	"installed_packages":
 	[
 		"AdvancedNewFile",
+		"Angular Material Snippets",
 		"BracketHighlighter",
 		"GitGutter",
+		"Material Theme",
 		"Monokai Extended",
 		"Package Control",
 		"Sass"
