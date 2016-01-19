@@ -1,2 +1,5 @@
 home/vim/bundle
 .netrwhist
+Package Control.*ca-*
+Package Control.last-run
+Package Control.cache/
