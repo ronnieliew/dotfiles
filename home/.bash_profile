@@ -13,7 +13,7 @@ fi
 if [ -e $(brew --prefix)/share/chruby ]; then
     . $(brew --prefix)/share/chruby/chruby.sh
     . $(brew --prefix)/share/chruby/auto.sh
-    chruby ruby-2.3.0
+    chruby ruby-2.3.2
 fi
 
 if [ -f `which powerline-daemon` ]; then
