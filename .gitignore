@@ -1,5 +1,6 @@
 home/vim/bundle
 .netrwhist
+oscrypto-ca-bundle.crt
 Package Control.*ca-*
 Package Control.last-run
 Package Control.cache/
