@@ -23,6 +23,7 @@
 	"material_theme_accent_lime": true,
 	"material_theme_bold_tab": true,
 	"material_theme_panel_separator": true,
+	"material_theme_small_tab": true,
 	"material_theme_tabs_separator": true,
 	"overlay_scroll_bars": "enabled",
 	"show_full_path": true,
