@@ -28,9 +28,13 @@ if [ -e $(brew --prefix)/share/chruby ]; then
     chruby ruby-2.4.1
 fi
 
+if [ -e $(brew --prefix)/bin/pyenv ]; then
+    eval "$(pyenv init -)"
+fi
+
 if [ -f `which powerline-daemon` ]; then
     powerline-daemon -q
     POWERLINE_BASH_CONTINUATION=1
     POWERLINE_BASH_SELECT=1
-    . $(python -c 'import pkgutil; print pkgutil.get_loader("powerline").filename' 2>/dev/null)/bindings/bash/powerline.sh
+    . $(python -c 'import pkgutil; print(pkgutil.get_loader("powerline").get_filename().rstrip("__init__.py"))' 2>/dev/null)bindings/bash/powerline.sh
 fi
