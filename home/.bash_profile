@@ -28,10 +28,6 @@ if [ -e $(brew --prefix)/share/chruby ]; then
     chruby ruby-2.4.1
 fi
 
-if [ -e $(brew --prefix)/bin/pyenv ]; then
-    eval "$(pyenv init -)"
-fi
-
 if [ -f `which powerline-daemon` ]; then
     powerline-daemon -q
     POWERLINE_BASH_CONTINUATION=1
