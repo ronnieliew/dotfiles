@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>expandAfterMode</key>
+	<integer>0</integer>
+	<key>expanderExceptionsMode</key>
+	<integer>4</integer>
+	<key>name</key>
+	<string>OmniFocus</string>
+	<key>snippetPlists</key>
+	<array>
+		<dict>
+			<key>abbreviation</key>
+			<string>.wf</string>
+			<key>abbreviationMode</key>
+			<integer>0</integer>
+			<key>creationDate</key>
+			<date>2012-04-08T05:47:10Z</date>
+			<key>label</key>
+			<string></string>
+			<key>modificationDate</key>
+			<date>2016-11-09T07:09:05Z</date>
+			<key>plainText</key>
+			<string>Waiting for </string>
+			<key>snippetType</key>
+			<integer>0</integer>
+			<key>uuidString</key>
+			<string>CAB11CA3-815C-495D-A92B-C82272984598</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>.cho</string>
+			<key>abbreviationMode</key>
+			<integer>0</integer>
+			<key>creationDate</key>
+			<date>2011-11-05T18:35:03Z</date>
+			<key>label</key>
+			<string>Check out -- </string>
+			<key>modificationDate</key>
+			<date>2016-02-18T03:33:23Z</date>
+			<key>plainText</key>
+			<string>Check out -- </string>
+			<key>snippetType</key>
+			<integer>0</integer>
+			<key>uuidString</key>
+			<string>B331E6AD-1F49-4649-AC94-D64FBB1FE9D2</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>.cr</string>
+			<key>abbreviationMode</key>
+			<integer>0</integer>
+			<key>creationDate</key>
+			<date>2012-02-02T04:31:58Z</date>
+			<key>label</key>
+			<string>Conduct research</string>
+			<key>modificationDate</key>
+			<date>2016-02-18T03:33:38Z</date>
+			<key>plainText</key>
+			<string>Conduct research re -- </string>
+			<key>snippetType</key>
+			<integer>0</integer>
+			<key>uuidString</key>
+			<string>857E5585-460E-40F1-91BA-E0B9EA2A7501</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>.pp</string>
+			<key>abbreviationMode</key>
+			<integer>0</integer>
+			<key>creationDate</key>
+			<date>2012-02-02T04:26:42Z</date>
+			<key>label</key>
+			<string>Plan Project</string>
+			<key>modificationDate</key>
+			<date>2016-02-18T03:33:42Z</date>
+			<key>plainText</key>
+			<string>Plan new project to </string>
+			<key>snippetType</key>
+			<integer>0</integer>
+			<key>uuidString</key>
+			<string>0428FE63-21DD-4513-8C60-43589E3D0FA3</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>.pe</string>
+			<key>abbreviationMode</key>
+			<integer>0</integer>
+			<key>creationDate</key>
+			<date>2010-06-26T17:51:30Z</date>
+			<key>label</key>
+			<string>Process email</string>
+			<key>modificationDate</key>
+			<date>2016-02-18T03:33:45Z</date>
+			<key>plainText</key>
+			<string>Process email concerning -- </string>
+			<key>snippetType</key>
+			<integer>0</integer>
+			<key>uuidString</key>
+			<string>05E80849-DE65-4E98-854A-39485A8F0A9F</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>.rte</string>
+			<key>abbreviationMode</key>
+			<integer>0</integer>
+			<key>creationDate</key>
+			<date>2009-12-02T16:29:49Z</date>
+			<key>label</key>
+			<string>Respond to e-mail regarding</string>
+			<key>modificationDate</key>
+			<date>2016-02-18T03:33:48Z</date>
+			<key>plainText</key>
+			<string>Respond to email regarding -- </string>
+			<key>snippetType</key>
+			<integer>0</integer>
+			<key>uuidString</key>
+			<string>DC79FD6A-821A-4A6B-BBF4-F82EADEECC6F</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>.rtri</string>
+			<key>abbreviationMode</key>
+			<integer>0</integer>
+			<key>creationDate</key>
+			<date>2009-12-04T16:48:30Z</date>
+			<key>label</key>
+			<string>Respond to Review inquiry</string>
+			<key>modificationDate</key>
+			<date>2016-02-18T03:33:52Z</date>
+			<key>plainText</key>
+			<string>Respond to Review Inquiry --</string>
+			<key>snippetType</key>
+			<integer>0</integer>
+			<key>uuidString</key>
+			<string>D16FC8FA-DA63-42CF-8E9C-B8BECF1B6D28</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>.smr</string>
+			<key>abbreviationMode</key>
+			<integer>0</integer>
+			<key>creationDate</key>
+			<date>2012-02-02T04:38:50Z</date>
+			<key>label</key>
+			<string>Set meeting</string>
+			<key>modificationDate</key>
+			<date>2016-02-18T03:33:55Z</date>
+			<key>plainText</key>
+			<string>Set meeting with %fill:name% re</string>
+			<key>snippetType</key>
+			<integer>0</integer>
+			<key>uuidString</key>
+			<string>4D1FD449-6E11-4E91-AC30-88B3A34B14DE</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>.fu</string>
+			<key>abbreviationMode</key>
+			<integer>0</integer>
+			<key>creationDate</key>
+			<date>2017-03-02T04:17:29Z</date>
+			<key>label</key>
+			<string></string>
+			<key>modificationDate</key>
+			<date>2017-03-02T04:17:50Z</date>
+			<key>plainText</key>
+			<string>Follow up — </string>
+			<key>snippetType</key>
+			<integer>0</integer>
+			<key>uuidString</key>
+			<string>1743B0DF-3185-4E6C-8D53-8CD6E091A8CD</string>
+		</dict>
+	</array>
+	<key>snippetUUIDs</key>
+	<array>
+		<string>CAB11CA3-815C-495D-A92B-C82272984598</string>
+		<string>B331E6AD-1F49-4649-AC94-D64FBB1FE9D2</string>
+		<string>857E5585-460E-40F1-91BA-E0B9EA2A7501</string>
+		<string>0428FE63-21DD-4513-8C60-43589E3D0FA3</string>
+		<string>05E80849-DE65-4E98-854A-39485A8F0A9F</string>
+		<string>DC79FD6A-821A-4A6B-BBF4-F82EADEECC6F</string>
+		<string>D16FC8FA-DA63-42CF-8E9C-B8BECF1B6D28</string>
+		<string>4D1FD449-6E11-4E91-AC30-88B3A34B14DE</string>
+		<string>1743B0DF-3185-4E6C-8D53-8CD6E091A8CD</string>
+	</array>
+	<key>suggestAbbreviations</key>
+	<integer>1</integer>
+	<key>updateFrequency</key>
+	<integer>0</integer>
+	<key>uuidString</key>
+	<string>4BC06640-549E-41EE-83A5-632D95418338</string>
+	<key>writable</key>
+	<integer>1</integer>
+</dict>
+</plist>

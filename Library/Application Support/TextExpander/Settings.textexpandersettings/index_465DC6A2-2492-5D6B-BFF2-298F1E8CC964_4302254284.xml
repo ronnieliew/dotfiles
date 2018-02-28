@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Auditory Feedback</key>
+	<false/>
+	<key>Automatic Backup</key>
+	<false/>
+	<key>Capitalize Sentences</key>
+	<false/>
+	<key>Client Mode</key>
+	<integer>0</integer>
+	<key>Cross Platform Images</key>
+	<true/>
+	<key>Date 3.X Installed</key>
+	<date>2016-02-15T06:55:07Z</date>
+	<key>Date 4.X Installed</key>
+	<date>2016-02-15T06:55:07Z</date>
+	<key>Date 5.X Installed</key>
+	<date>2016-02-15T06:55:07Z</date>
+	<key>Date Installed</key>
+	<date>2016-02-15T06:55:07Z</date>
+	<key>Expander Mode</key>
+	<integer>0</integer>
+	<key>IconGraphite</key>
+	<true/>
+	<key>IconNameStem</key>
+	<string>SMTEStatusItem2</string>
+	<key>Last Version</key>
+	<string>5.1.4</string>
+	<key>Restore Pasteboard</key>
+	<true/>
+	<key>Snippet Menu Item Width</key>
+	<integer>220</integer>
+	<key>Status Item</key>
+	<true/>
+	<key>autoCapExceptionApps</key>
+	<array>
+		<dict>
+			<key>bundleID</key>
+			<string>com.apple.Terminal</string>
+			<key>name</key>
+			<string>Terminal</string>
+		</dict>
+		<dict>
+			<key>bundleID</key>
+			<string>com.apple.dt.Xcode</string>
+			<key>name</key>
+			<string>Xcode</string>
+		</dict>
+	</array>
+	<key>autoCapExceptionsMode</key>
+	<integer>1</integer>
+	<key>checkforupdates</key>
+	<true/>
+	<key>checkfrequency</key>
+	<integer>7</integer>
+	<key>defaultSound</key>
+	<string>Blow</string>
+	<key>groupsTE5</key>
+	<array>
+		<dict>
+			<key>name</key>
+			<string>General</string>
+			<key>uuidString</key>
+			<string>0EA7C738-0E5C-4349-B26C-D0878D4E5618</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Work</string>
+			<key>uuidString</key>
+			<string>56EB585D-217E-4CBD-863D-583DE1F44254</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>OmniFocus</string>
+			<key>uuidString</key>
+			<string>4BC06640-549E-41EE-83A5-632D95418338</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Suggested Snippets</string>
+			<key>uuidString</key>
+			<string>0EA8C837-0E5C-4349-B26C-D0787D4E5617</string>
+		</dict>
+	</array>
+	<key>outlineState</key>
+	<array>
+		<string>0EA7C738-0E5C-4349-B26C-D0878D4E5618</string>
+		<string>56EB585D-217E-4CBD-863D-583DE1F44254</string>
+		<string>4BC06640-549E-41EE-83A5-632D95418338</string>
+		<string>0EA8C837-0E5C-4349-B26C-D0787D4E5617</string>
+	</array>
+	<key>primaryAscending</key>
+	<true/>
+	<key>primarySortKey</key>
+	<string>abbreviation</string>
+	<key>rejectedHashes</key>
+	<array>
+		<integer>7637780857315107641</integer>
+		<integer>6754415776677677356</integer>
+		<integer>9416328504848521725</integer>
+		<integer>9420925100382520825</integer>
+		<integer>4672635828192478418</integer>
+		<integer>17089114096370250948</integer>
+		<integer>8234850339189348941</integer>
+		<integer>1749405552710187341</integer>
+		<integer>1895858955914683744</integer>
+		<integer>15863001242386611816</integer>
+		<integer>12443410285968224952</integer>
+		<integer>16119958484122096880</integer>
+		<integer>14209485756972162345</integer>
+		<integer>6456431445786666368</integer>
+		<integer>3504438079907441382</integer>
+		<integer>1147314785155698238</integer>
+		<integer>14715029927761894472</integer>
+		<integer>13847032541609926031</integer>
+		<integer>4453578094107266103</integer>
+		<integer>14650287973701345341</integer>
+		<integer>3106386241808909592</integer>
+		<integer>5688474893655334226</integer>
+		<integer>9734788508099788731</integer>
+		<integer>7469034540949223348</integer>
+		<integer>12132773058461311110</integer>
+		<integer>11906695889300894078</integer>
+		<integer>6754356703171637007</integer>
+		<integer>10205539593927847859</integer>
+		<integer>9223242197338041071</integer>
+		<integer>6461032151711699220</integer>
+		<integer>1386006149437278895</integer>
+		<integer>16075712976450062297</integer>
+		<integer>5587939794172242546</integer>
+	</array>
+	<key>suggestExceptionApps</key>
+	<array>
+		<dict>
+			<key>bundleID</key>
+			<string>com.reederapp.rkit2.mac</string>
+			<key>name</key>
+			<string>Reeder</string>
+		</dict>
+		<dict>
+			<key>bundleID</key>
+			<string>com.apple.Terminal</string>
+			<key>name</key>
+			<string>Terminal</string>
+		</dict>
+	</array>
+	<key>suggestExceptionsMode</key>
+	<integer>1</integer>
+	<key>wantsDaemonEnabled</key>
+	<true/>
+</dict>
+</plist>

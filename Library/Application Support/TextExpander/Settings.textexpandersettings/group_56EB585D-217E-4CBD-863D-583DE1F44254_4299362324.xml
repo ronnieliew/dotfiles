@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>expandAfterMode</key>
+	<integer>0</integer>
+	<key>expanderExceptionApps</key>
+	<array/>
+	<key>expanderExceptionsMode</key>
+	<integer>4</integer>
+	<key>name</key>
+	<string>Work</string>
+	<key>snippetPlists</key>
+	<array>
+		<dict>
+			<key>abbreviation</key>
+			<string>t.conv</string>
+			<key>abbreviationMode</key>
+			<integer>0</integer>
+			<key>creationDate</key>
+			<date>2016-02-18T02:45:48Z</date>
+			<key>label</key>
+			<string>Conversational Ad</string>
+			<key>modificationDate</key>
+			<date>2016-05-10T15:16:50Z</date>
+			<key>plainText</key>
+			<string>Hi %|
+
+The account %filltext:name=Twitter Handle:default=@% has been enabled for Conversational Ad format.
+
+Here's the Conversational Ads Card URL to send to the advertiser:
+
+* https://ads.twitter.com/accounts/%filltext:name=URL ID%/brand_insights/video_conversation_card
+
+
+Access to conversational ads will be removed after 1 month from the planned start date.
+Download the [Conversational Cards Onboarding Guide for Clients|https://docs.google.com/document/d/1a-kUvvBE-6A_VvOSl9sPXw_DHT8giOxpIM7b4GmbYxQ/export?format=pdf] and share it with the advertiser.</string>
+			<key>snippetType</key>
+			<integer>0</integer>
+			<key>uuidString</key>
+			<string>2E427B16-13B8-435B-BF8B-C454F49DE3D8</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>t.review</string>
+			<key>abbreviationMode</key>
+			<integer>0</integer>
+			<key>creationDate</key>
+			<date>2016-02-22T03:14:57Z</date>
+			<key>label</key>
+			<string>Final Spend Confirmation</string>
+			<key>modificationDate</key>
+			<date>2017-06-29T02:12:01Z</date>
+			<key>plainText</key>
+			<string>Hi %|
+
+Based on the planned completion date, this ticket should be completed.
+
+Please confirm the final total deal price (%clipboard USD) related to this program so we can close this ticket.
+This data is critical in order for us to capture revenue reporting on Tableau. 
+
+Thanks!
+
+</string>
+			<key>snippetType</key>
+			<integer>0</integer>
+			<key>uuidString</key>
+			<string>ECF5A02A-1A69-45AF-ABF2-DB1810B49BC2</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>t.url</string>
+			<key>abbreviationMode</key>
+			<integer>0</integer>
+			<key>creationDate</key>
+			<date>2016-12-02T08:12:40Z</date>
+			<key>label</key>
+			<string>Jira Ticket URL</string>
+			<key>modificationDate</key>
+			<date>2017-07-25T07:35:46Z</date>
+			<key>plainText</key>
+			<string>https://jira.twitter.biz/browse/BRANDSTRAT-%filltext:name=Ticket ID%</string>
+			<key>snippetType</key>
+			<integer>0</integer>
+			<key>uuidString</key>
+			<string>BB362AF7-51D0-423E-91F1-B172E876E67A</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>t.addr</string>
+			<key>abbreviationMode</key>
+			<integer>0</integer>
+			<key>creationDate</key>
+			<date>2017-04-19T06:19:32Z</date>
+			<key>label</key>
+			<string>Office Address</string>
+			<key>modificationDate</key>
+			<date>2017-04-19T06:19:48Z</date>
+			<key>plainText</key>
+			<string>138 Market Street 20-01 Singapore 048946</string>
+			<key>snippetType</key>
+			<integer>0</integer>
+			<key>uuidString</key>
+			<string>A28ED983-C844-4033-B1F4-9AB98D0A1555</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>t.dm</string>
+			<key>abbreviationMode</key>
+			<integer>0</integer>
+			<key>creationDate</key>
+			<date>2017-06-21T09:11:05Z</date>
+			<key>label</key>
+			<string>Allow DM from all</string>
+			<key>modificationDate</key>
+			<date>2017-06-21T09:11:35Z</date>
+			<key>plainText</key>
+			<string>
+I noticed that the handle has not been setup to receive DM from anyone. Currently you will need to be a follower else you can't DM the handle. Allowing DM from anyone (followers and non-followers) will help the DM automation campaign.
+
+Please refer to [customer support blog post | https://blog.twitter.com/2016/announcing-new-customer-support-features-for-businesses] and get the client to activate it via this page:  https://business.twitter.com/i/settings/support </string>
+			<key>snippetType</key>
+			<integer>0</integer>
+			<key>uuidString</key>
+			<string>5E6150B9-2822-4D30-82BC-169E68A6A3F8</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>t.close</string>
+			<key>abbreviationMode</key>
+			<integer>0</integer>
+			<key>creationDate</key>
+			<date>2016-03-30T03:12:10Z</date>
+			<key>label</key>
+			<string>Close Ticket</string>
+			<key>modificationDate</key>
+			<date>2016-03-30T03:12:59Z</date>
+			<key>plainText</key>
+			<string>Hi  %|
+
+Closing this ticket - feel free to re-open it if you have further questions.
+Thanks!
+
+</string>
+			<key>snippetType</key>
+			<integer>0</integer>
+			<key>uuidString</key>
+			<string>B3B31260-AC64-4747-9047-6478F55C7D9D</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>go.ul</string>
+			<key>abbreviationMode</key>
+			<integer>0</integer>
+			<key>creationDate</key>
+			<date>2017-06-16T06:43:32Z</date>
+			<key>label</key>
+			<string>User Limits</string>
+			<key>modificationDate</key>
+			<date>2017-06-16T06:44:37Z</date>
+			<key>plainText</key>
+			<string>go/userlimits/%clipboard</string>
+			<key>snippetType</key>
+			<integer>0</integer>
+			<key>uuidString</key>
+			<string>60FB7565-21A4-4A7F-8CE6-3BCA8B302C09</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>go.as</string>
+			<key>abbreviationMode</key>
+			<integer>0</integer>
+			<key>creationDate</key>
+			<date>2017-06-16T06:46:39Z</date>
+			<key>label</key>
+			<string>AdSpy</string>
+			<key>modificationDate</key>
+			<date>2017-06-16T06:47:20Z</date>
+			<key>plainText</key>
+			<string>go/adspy/%clipboard</string>
+			<key>snippetType</key>
+			<integer>0</integer>
+			<key>uuidString</key>
+			<string>7859DF74-AC9E-47D2-89A0-E4FC56439F92</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>go.app</string>
+			<key>abbreviationMode</key>
+			<integer>0</integer>
+			<key>creationDate</key>
+			<date>2017-07-25T07:33:30Z</date>
+			<key>label</key>
+			<string>App Limits</string>
+			<key>modificationDate</key>
+			<date>2017-07-25T07:35:05Z</date>
+			<key>plainText</key>
+			<string>go/app/%clipboard</string>
+			<key>snippetType</key>
+			<integer>0</integer>
+			<key>uuidString</key>
+			<string>EB6699FB-BBB1-4CDA-B637-116E6D3F65DC</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string></string>
+			<key>abbreviationMode</key>
+			<integer>0</integer>
+			<key>creationDate</key>
+			<date>2018-01-11T06:10:56Z</date>
+			<key>label</key>
+			<string>DM Elevation</string>
+			<key>modificationDate</key>
+			<date>2018-01-12T03:24:48Z</date>
+			<key>plainText</key>
+			<string>----
+h4. Elevation Request
+ 
+- Program start date: %filltext:name=MM DD:default= , 2018%
+- Program end date: %filltext:name=MM DD:default= , 2018%
+- Requested Rate Limit for DM creates/min (Initial Phase) (per 15 min): %filltext:name=DM per 15 minutes:default=5,000%
+- Estimated Rate Limit for DM creates/min (Final Phase) (per 15 min): %filltext:name=DM per 15 minutes:default=5,000%
+- Requested Total # of DMs per day (default: 1,000 for normal accounts / 15,000 for Verified): %filltext:name=Total DM per day:default=15,000%
+- Application ID through which DMs will be sent: %filltext:name=Application ID% (%fillpopup:name=popup 7:Proxima:UniqueVision:IC Group%)
+- Accounts which require elevated rate limits (The accounts on whose behalf DMs will be sent): @%filltext:name=Handle%
+h4. Project Synopsis
+h5. Team
+- %|, Brand Strategy, Strategist
+- , Sales, CP
+h5. Use Case
+1. Brand promotes a tweet with DM card to lead User to DM
+2. User goes into DM via DM card CTA to start conversation
+3. User engages with bot to get information
+h5. Recurring DM Touch points
+Chatbot drives to follow the account for the future conversations/communications 
+h5. Partner’s goals &amp; how they will measure impact:
+- Goals: 
+  -- engagement and brand association
+- KPIs:
+  -- number of DM card clicks
+  -- traffic from Twitter to website
+  -- new followers
+h5. Value to Twitter
+- $%filltext:name=Spend% for promoted tweets with DM cards.  
+- It drives conversation between User and Business in both DM and timeline.
+</string>
+			<key>snippetType</key>
+			<integer>0</integer>
+			<key>uuidString</key>
+			<string>F1124C13-1737-404E-8067-9B3F5501982D</string>
+		</dict>
+	</array>
+	<key>snippetUUIDs</key>
+	<array>
+		<string>2E427B16-13B8-435B-BF8B-C454F49DE3D8</string>
+		<string>ECF5A02A-1A69-45AF-ABF2-DB1810B49BC2</string>
+		<string>BB362AF7-51D0-423E-91F1-B172E876E67A</string>
+		<string>A28ED983-C844-4033-B1F4-9AB98D0A1555</string>
+		<string>5E6150B9-2822-4D30-82BC-169E68A6A3F8</string>
+		<string>B3B31260-AC64-4747-9047-6478F55C7D9D</string>
+		<string>60FB7565-21A4-4A7F-8CE6-3BCA8B302C09</string>
+		<string>7859DF74-AC9E-47D2-89A0-E4FC56439F92</string>
+		<string>EB6699FB-BBB1-4CDA-B637-116E6D3F65DC</string>
+		<string>F1124C13-1737-404E-8067-9B3F5501982D</string>
+	</array>
+	<key>suggestAbbreviations</key>
+	<integer>1</integer>
+	<key>updateFrequency</key>
+	<integer>0</integer>
+	<key>uuidString</key>
+	<string>56EB585D-217E-4CBD-863D-583DE1F44254</string>
+	<key>writable</key>
+	<integer>1</integer>
+</dict>
+</plist>
