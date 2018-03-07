@@ -28,7 +28,7 @@ if [ -e $(brew --prefix)/share/chruby ]; then
     chruby ruby-2.4.1
 fi
 
-if [ -f `which powerline-daemon` ]; then
+if [ -e $(brew --prefix)/bin/powerline-daemon ]; then
     powerline-daemon -q
     POWERLINE_BASH_CONTINUATION=1
     POWERLINE_BASH_SELECT=1
