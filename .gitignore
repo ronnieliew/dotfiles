@@ -1,4 +1,4 @@
-home/vim/bundle
+home/.vim/bundle
 .netrwhist
 oscrypto-ca-bundle.crt
 Package Control.*ca-*
